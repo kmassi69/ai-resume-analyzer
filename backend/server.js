@@ -27,7 +27,7 @@ await fs.mkdir(uploadsDir, { recursive: true }).catch(() => {});
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    process.env.FRONTEND_URL
+    "https://ai-resume-analyzer-frontend-myfz.onrender.com"
   ],
   credentials: true
 }));
