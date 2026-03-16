@@ -6,7 +6,7 @@ import axios from 'axios';
 import { useAuthStore } from '../state/authStore';
 
 const api = axios.create({
-  baseURL: "https://ai-resume-analyzer-backend-4bzx.onrender.com/api"",
+  baseURL: "https://ai-resume-analyzer-backend-4bzx.onrender.com/api",
   headers: {
     "Content-Type": "application/json"
   },
